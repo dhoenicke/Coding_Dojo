@@ -1,0 +1,24 @@
+#Search{
+    color: aquamarine;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: aquamarine;
+
+}
+
+#Plus{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border: 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: aquamarine
+}
+
+#CreateAccount{
+    padding: 15px;
+    border-style: solid;
+    background-color: blue;
+    color: white;
+}
