@@ -1,0 +1,27 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: monospace;
+}
+
+.purple {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+}
+
+#blue {
+    background-color: rgb(127, 217, 255);
+    color: black;
+    text-align: right;
+    font-style: normal;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+span {
+    color: aqua;
+}
