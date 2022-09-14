@@ -1,5 +1,7 @@
 .nav {
     display: flex;
+    margin: 30px;
+    border-radius: 10px;
     justify-content: space-between;
     background-color: black;
 }
