@@ -1,0 +1,12 @@
+img {
+    height: 200px;
+    width: auto;
+    padding: 15px;
+    margin: 25px;
+    border-top: 15px;
+}
+
+.img2 {
+    align-items: center;
+}
+

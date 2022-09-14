@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav-title {
+    color: white;
+    background-color: black;
+    flex-direction: row;
+    margin: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+    margin: 40px;
+}
+
+.home {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.myprofile {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.findconnections {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    background-color: aqua;
+}
