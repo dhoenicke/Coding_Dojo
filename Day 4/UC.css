@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px;
+    border-radius: 5px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: aqua;
+    height: 90px;
+}
+
+.card-body {
+    padding: 15px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.avatar {
+    height: 70px;
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+
+.map {
+    height: 25px;
+    margin: 5px;
+}
+
+.gear {
+    height: 25px;
+    margin: 5px;
+}
+
+.marker {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin: 5px;
+}
+
