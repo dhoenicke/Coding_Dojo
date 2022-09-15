@@ -1,12 +1,22 @@
 img {
-    height: 200px;
-    width: auto;
-    padding: 15px;
-    margin: 25px;
-    border-top: 15px;
+    height: 155px;
+    width: 160px;
+    padding: 5px;
+    margin: 15px;
 }
 
-.img2 {
-    align-items: center;
+.row {
+    text-align: center;
 }
 
+.blue{
+    background-color: blue;
+}
+
+.red {
+    background-color: firebrick;
+}
+
+.orange {
+    background-color: orange;
+}
