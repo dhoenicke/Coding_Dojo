@@ -1,94 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .nav {
     display: flex;
-    width: 900px;
     margin: 10px;
     justify-content: space-between;
     background-color: black;
 }
 
-.nav-title {
+.nav-links {
+    display: flex;
+    gap: 20px;
     color: white;
     background-color: black;
-    flex-direction: row;
-    margin: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    margin: 20px;
+    font-family: normal;
 }
 
 ul {
     list-style-type: none;
 }
 
-.nav-links {
-    display: flex;
-    right: 10px.;
-    align-content: space-around;
-    margin: 40px;
-}
-
 .home {
+    display: flex;
     padding: 15px;
     text-decoration: none;
     color: white;
 }
 
 .myprofile {
+    display: flex;
     padding: 15px;
     text-decoration: none;
     color: white;
 }
 
 .findconnections {
+    display: flex;
     padding: 15px;
     text-decoration: none;
     color: white;
 }
 
 .button {
-    background-color: aqua;
-}
-
-body {
-    background-color: white;
+    padding: 35px;
+    text-decoration: none;
+    color: white;
 }
 
 .container {
-    width: 400px;
     margin: 10px;
     display: flex;
-    left: 10px;
-}
-
-.card {
-    background-color: white;
-    border: 1px;
-    border-radius: 5px;
-    width: 700px;
-    margin-bottom: 20px;
-}
-
-.header {
-    background-color: aqua;
-    height: 90px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .card-body {
-    padding: 15px;
+    padding: 20px;
     border-left: 2px solid grey;
     border-right: 2px solid grey;
     border-bottom: 2px solid grey;
 }
 
-.avatar {
-    height: 70px;
-    position: relative;
-    top: 60px;
-    left: 15px;
+.header {
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
+
+.profile .header {
+    background-color: aqua;
+}
+
+
+.avatar1 {
+    height: 50px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
 
 .map {
     height: 25px;
@@ -105,69 +98,41 @@ body {
     align-items: center;
 }
 
-.text {
-    margin: 5px;
+.h2 {
+    font-family: normal;
 }
 
-.name {
-    align-items: baseline;
+.education {
+    margin: 25px;
 }
 
-.container-2 {
-    width: 500px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card-2 {
+.avatar {
     display: flex;
-    margin: 15px;
+    width: 50px;
+    height: 50px;
+    gap: 20px;
 }
 
-.connectionrequests {
+.col {
     display: flex;
-    display: inline-block;
-}
-
-.connectionrequestsheader {
-    display: flex;
-    margin: 50px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .icon {
     display: flex;
-}
-
-.yourconnections {
-    color: white;
+    width: 35px;
     padding: 15px;
+    gap: 20px;
 }
 
-
-.yourconnectionsheader {
-    background-color: black;
-}
-
-.connectionscontent {
-    width: 150px;
-    display: inline-block;
-}
-
-.education {
-    display: flex;
-    width: fit-content;
-    height: fit-content;
-    margin: 15px;
-    color: white;
-}
-
-.educationheader {
+.col-2 {
     display: flex;
     background-color: black;
-    color: white;
 }
 
-.educationtext {
-    color: white;
+.connectionrequests .card-body div {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
 }
