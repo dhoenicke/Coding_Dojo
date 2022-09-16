@@ -1,0 +1,168 @@
+.nav {
+    display: flex;
+    width: 900px;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav-title {
+    color: white;
+    background-color: black;
+    flex-direction: row;
+    margin: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-links {
+    display: flex;
+    right: 10px;
+    align-content: space-around;
+    margin: 40px;
+}
+
+.home {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.myprofile {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.findconnections {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    background-color: aqua;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    left: 10px;
+}
+
+.card {
+    background-color: white;
+    border: 1px;
+    border-radius: 5px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: aqua;
+    height: 90px;
+}
+
+.card-body {
+    padding: 15px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.avatar {
+    height: 70px;
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+
+.map {
+    height: 25px;
+    margin: 5px;
+}
+
+.gear {
+    height: 25px;
+    margin: 5px;
+}
+
+.marker {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin: 5px;
+}
+
+.name {
+    align-items: baseline;
+}
+
+.container-2 {
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-2 {
+    display: flex;
+    margin: 15px;
+}
+
+.connectionrequests {
+    display: flex;
+    display: inline-block;
+}
+
+.connectionrequestsheader {
+    display: flex;
+    margin: 50px;
+}
+
+.icon {
+    display: flex;
+}
+
+.yourconnections {
+    color: white;
+    padding: 15px;
+}
+
+
+.yourconnectionsheader {
+    background-color: black;
+}
+
+.connectionscontent {
+    width: 150px;
+    display: inline-block;
+}
+
+.education {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 15px;
+    color: white;
+}
+
+.educationheader {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.educationtext {
+    color: white;
+}
