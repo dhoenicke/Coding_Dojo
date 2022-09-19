@@ -33,6 +33,7 @@
 }
 
 .box-1 {
+    flex: 2;
     padding: 25px;
     border: solid black;
     border-radius: 1px;
@@ -62,8 +63,4 @@
     padding: 25px;
     border: solid black;
     border-radius: 1px;
-}
-
-.text-3 {
-    
 }
