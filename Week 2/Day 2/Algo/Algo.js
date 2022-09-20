@@ -48,7 +48,11 @@ for(var i=0; i<pokémon.length; i++) {
     // if (pokémon[i].types[1] === "flying") {
     //     console.log(pokémon[i].types[0]);
     // }
-    if ((pokémon[i].types[0] === "poison" && pokémon[i].types.length === 1) === false) {
-            console.log(pokémon[i].name);
+        if(pokémon[i].types.length === 1 && pokémon[i].types[0] === "poison"){
+            let reverseString = ""
+            for(var j=pokémon[i].name.length-1; j>=0; j--){
+                reverseString += pokémon[i].name[j];
+            }
+            console.log(reverseString); 
         }
     }
