@@ -1,6 +1,6 @@
 var like = 1;
 
-function like(){
-    count ++;
-    console.log(like);
-}
+function likecount() {
+    var num = document.querySelector(".likecount");
+    num.innerText = parseFloat(num.innerText) + 1;
+    }
