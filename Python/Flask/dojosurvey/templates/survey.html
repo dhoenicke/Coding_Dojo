@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Dojo Survey</title>
+</head>
+
+<style>
+    body {
+        background-color: grey;
+        border: solid 2px black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 600px;
+    }
+</style>
+
+<body>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    <h5>{{message}}</h5>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <form action=" /result" method="post">
+        <div class="form-group col-lg-4">
+            <label for="form-group">Name</label>
+            <input type="text" class="form-control" id="form-input" placeholder="Name" name="name">
+        </div>
+        <div class="form-group col-lg-4">
+            <label for="inputlocation">Locations</label>
+            <select class="form-control" id="dojolocation" name="dojo_location">
+                <option value="Chicago">Chicago</option>
+                <option value="San Diego">San Diego</option>
+                <option value="Monterey">Monterey</option>
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Denver">Denver</option>
+                <option value="Boston">Boston</option>
+                <option value="Miami">Miami</option>
+            </select>
+        </div>
+        <div class="form-group col-lg-4">
+            <label for="inputlocation">Favorite Language</label>
+            <select class="form-control" id="favlanguage" name="favlanguage">
+                <option value="Python">Python</option>
+                <option value="Java">Html</option>
+                <option value="Swift">Css</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="ml-3 form-group">
+            <label>Comments (Optional)</label>
+            <textarea class="form-control col-lg-5" id="Comments" rows="3" name="comments"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
+    </form>
+</body>
+
+</html>
