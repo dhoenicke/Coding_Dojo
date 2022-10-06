@@ -1,3 +1,4 @@
+from unittest import result
 from mysqlconnection import connectToMySQL
 
 class User:
@@ -25,3 +26,9 @@ class User:
         # comes back as the new row id
         result = connectToMySQL('users_schema').query_db(query,data)
         return result
+
+    @classmethod
+    def get_one(cls, data):
+        query = "SELECT * FROM users WHERE id = %(id)s";
+        result = connectToMySQL('users_schema').query_db(query,data)
+        return cls(result[0])
