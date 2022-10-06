@@ -17,7 +17,7 @@ def users():
 
 @app.route('/user/new')
 def new():
-    return render_template("new_user.html")
+    return render_template("new_users.html")
 
 
 @app.route('/user/create', methods=['POST'])
@@ -32,7 +32,7 @@ def edit(id):
     data = {
         "id": id
     }
-    return render_template("edit_user.html", user=User.get_one(data))
+    return render_template("edit_users.html", user=User.get_one(data))
 
 
 @app.route('/user/show/<int:id>')
@@ -40,7 +40,7 @@ def show(id):
     data = {
         "id": id
     }
-    return render_template("show_user.html", user=User.get_one(data))
+    return render_template("show_users.html", user=User.get_one(data))
 
 
 @app.route('/user/update', methods=['POST'])
