@@ -16,7 +16,7 @@ def users():
 
 @app.route('/user/new')
 def new():
-    return render_template("new_user.html")
+    return render_template("new_users.html")
 
 @app.route('/user/create',methods=['POST'])
 def create():
