@@ -40,7 +40,7 @@ def login():
 @app.route('/dashboard')
 def dashboard():
     if 'user_id' not in session:
-        return redirect('/logout')
+        return redirect('/')
     data ={
         'id': session['user_id']
     }
