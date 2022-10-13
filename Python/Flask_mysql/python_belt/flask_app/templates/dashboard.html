@@ -5,44 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Shows</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     <nav class="d-flex justify-content-between align-items-center col-12">
         <h1 class="text-center">Welcome {{user.first_name}}!</h1>
         <div class="d-flex col-4 justify-content-around">
-            <a href="/new/recipe" class="btn btn-primary">Add New Recipe</a>
+            <a href="/new/show" class="btn btn-primary">+ Create</a>
             <a href="/logout" class="btn btn-info">Logout</a>
-
         </div>
-
     </nav>
     <div class="col-8 mx-auto">
-
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Under 30 Minutes?</th>
+                    <th>Title</th>
+                    <th>Network</th>
+                    <th>Release Date</th>
                     <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                {% for recipe in recipes %}
+                {% for show in shows %}
                 <tr>
-                    <td>{{recipe.name}}</td>
-                    {% if recipe.under30 == 1 %}
-                    <td>Yes</td>
-                    {% else %}
-                    <td>No</td>
-                    {% endif %}
+                    <td>{{show.name}}</td>
+                    <td>{{show.network}}</td>
+                    <td>{{show.date_made}}</td>
                     <td>
-                        <a href="/recipe/{{recipe.id}}">View Instructions</a>
-                        {% if recipe.user_id == session.user_id %}
-                        <a href="/edit/recipe/{{recipe.id}}">Edit</a>
-                        <a href="/destroy/recipe/{{recipe.id}}">Delete</a>
+                        <a href="/show/{{show.id}}">View</a>
+                        {% if show.user_id == session.user_id %}
+                        <a href="/edit/show/{{show.id}}">Edit</a>
+                        <a href="/destroy/show/{{show.id}}">Delete</a>
                         {% endif %}
                     </td>
                 </tr>
