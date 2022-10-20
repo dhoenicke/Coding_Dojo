@@ -1,4 +1,3 @@
-from crypt import methods
 from flask import render_template,redirect,session,request, flash
 from flask_app import app
 from flask_app.models.post import Post
@@ -42,12 +41,12 @@ def edit_post(id):
     }
     return render_template("edit_post.html",edit=Post.get_one(data),user=User.get_by_id(user_data))
 
-@app.route('/update/post/<int:id>',methods=['POST'])
-def update_post(id):
+@app.route('/update/post',methods=['POST'])
+def update_post():
     if 'user_id' not in session:
         return redirect('/logout')
     if not Post.validate_post(request.form):
-        return redirect(f'/update/post/{id}')
+        return redirect('update/post/')
     data = {
         "name": request.form["name"],
         "date_made": request.form["date_made"],
@@ -69,13 +68,20 @@ def show_post(id):
     }
     return render_template("show_post.html",show=Post.get_one(data),user=User.get_by_id(user_data))
 
-# @app.route("/creat-comment/<post_id>", methods=['POST'])
-# def create_comment(post_id):
-#     text = request.form.get('text')
-
-#     if not text:
-#         flash('comment cannot be empty.')
-#         return redirect(url_for(post.index))
+# @app.route('/create-comment/post',methods=['POST'])
+# def create_comment():
+#     if 'user_id' not in session:
+#         return redirect('/logout')
+#     if not Post.validate_post(request.form):
+#         return redirect('/show/post')
+#     data = {
+#         "name": request.form["name"],
+#         "date_made": request.form["date_made"],
+#         "description": request.form["description"],
+#         "user_id": session["user_id"]
+#     }
+#     Post.save(data)
+#     return redirect('/dashboard')
 
 @app.route('/destroy/post/<int:id>')
 def destroy_post(id):

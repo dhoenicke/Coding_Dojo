@@ -25,7 +25,7 @@
             <p class="card-text">Description: {{show.description}}</p>
             <br>
             <p class="card-text">Posted By: {{show.creator.first_name}}</p>
-            <form class="input-group mb-3" method="POST" action="/create-comment/{{post.id}}">
+            <form class="input-group mb-3" method="POST" action="/create-comment/">
                 <input type="text" name="text" id="text" class="form-control"/>
                 <button type="submit" class="btn btn-primary">Comment</button>
             </form>

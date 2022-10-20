@@ -50,6 +50,9 @@ class Post:
     def update(cls, data):
         query = "UPDATE posts SET name=%(name)s, date_made=%(date_made)s, description=%(description)s, updated_at=NOW() WHERE id = %(id)s;"
         return connectToMySQL(cls.db_name).query_db(query,data)
+
+    # @classmethod
+    # def comment(cls):
     
     @classmethod
     def destroy(cls,data):
