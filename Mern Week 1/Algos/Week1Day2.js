@@ -81,3 +81,35 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //     }
 //     return nums
 // }
+
+// const insertionSort = (nums) => {
+//     // Code goes here
+//     for (let i = 0; i<nums.length; i++) {
+//         let lindex = i-1; //left most index
+//         let numinsert = nums[i]; 
+//         while ((lindex>=0) && (nums[lindex] > numinsert)) {
+//             nums[lindex+1] = nums[lindex];
+//             lindex--;
+//         }
+//         nums[lindex+1] = numinsert;
+//     }
+//     return nums
+// }
+
+// const insertionSort = (nums) => {
+//     if ( nums.length < 2) {
+//         return nums
+//     }
+//     for(let i = 1; i < nums.length; i++) {
+//         let j = i
+//         while(j > 0) {
+//             if(nums[j-1] > nums[j]) {
+//                 let temp = nums[j]
+//                 nums[j] = nums[j-1]
+//                 nums[j-1] = temp
+//             }
+//             j--
+//         }
+//     }
+//     return nums;
+// }
