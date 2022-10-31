@@ -1,45 +1,65 @@
-import React, { useState } from 'react'
+import React from 'react';
 
-const Form = () => {
-    const [firstname, setfirstName] = useState("")
-    const [lastname, setlastName] = useState("")
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
-    const [confirmpassword, setconfirmPassword] = useState("")
+const Form = (props) => {
+    const { inputs, setInputs } = props;
+    const onChange = (e) => {
+        setInputs({
+            ...inputs,
+            [e.target.name]: e.target.value,
+        });
+    };
+
     return (
-        <div>
-            <form>
-                <div className='form-group'>
-                    <label>First Name</label>
-                    <input onChange={(e) => setfirstName(e.target.value)} type="text" className='form-control' />
-                </div>
-                <div className='form-group'>
-                    <label>Last Name</label>
-                    <input onChange={(e) => setlastName(e.target.value)} type="text" className='form-control' />
-                </div>
-                <div className='form-group'>
-                    <label>Email</label>
-                    <input onChange={(e) => setEmail(e.target.value)} type="email" className='form-control' />
-                </div>
-                <div className='form-group'>
-                    <label>Password</label>
-                    <input onChange={(e) => setPassword(e.target.value)} type="password" className='form-control' />
-                </div>
-                <div className='form-group'>
-                    <label>Confirm Password</label>
-                    <input onChange={(e) => setconfirmPassword(e.target.value)} type="password" className='form-control' />
-                </div>
-            </form>
-            <hr />
-            <p>Your Form Data:</p>
-            <br />
-            <p> First Name: {firstname}</p>
-            <p> Last Name: {lastname}</p>
-            <p> Email: {email}</p>
-            <p> Password: {password}</p>
-            <p> Confirm Password: {confirmpassword}</p>
-        </div>
-    )
+        <form>
+            <div>
+                <label className="firstName">First Name: </label>
+                <input onChange={onChange} type="text" name="firstName" />
+                <p>
+                    {inputs.firstName.length > 0 && inputs.firstName.length < 2
+                        ? "First name must be at least 2 characters."
+                        : ""}
+                </p>
+            </div>
+            <div>
+                <label className="lastName">Last Name: </label>
+                <input onChange={onChange} type="text" name="lastName" />
+                <p>
+                    {inputs.firstName.length > 0 && inputs.firstName.length < 2
+                        ? "Last name must be at least 2 characters."
+                        : ""}
+                </p>
+            </div>
+            <div>
+                <label className="email">Email Address: </label>
+                <input onChange={onChange} type="email" name="email" />
+                <p>
+                    {inputs.email.length > 0 && inputs.email.length < 5
+                        ? "Email must be at least 5 characters."
+                        : ""}
+                </p>
+            </div>
+            <div>
+                <label className="password">Password: </label>
+                <input onChange={onChange} type="password" name="password" />
+                <p>
+                    {inputs.password.length > 0 && inputs.password.length < 8
+                        ? "Password must be at least 8 characters."
+                        : ""}
+                </p>
+            </div>
+            <div>
+                <label className="confirmPassword">Confirm Password: </label>
+                <input onChange={onChange} type="password" name="confirmPassword" />
+                <p>
+                    {inputs.confirmPassword.length > 0 &&
+                        inputs.confirmPassword.length < 8
+                        ? "Password must be at least 8 characters."
+                        : ""}
+                    {inputs.password !== inputs.confirmPassword ? "Passwords do not match." : ""}
+                </p>
+            </div>
+        </form>
+    );
 }
 
-export default Form
+export default Form;
