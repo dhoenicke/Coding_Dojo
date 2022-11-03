@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Home />
       <Routes>
+        {/* <Route path="" */}
         <Route path="/people/:id" element={<People />} />
         <Route path="/planet/:id" element={<Planet />} />
       </Routes>

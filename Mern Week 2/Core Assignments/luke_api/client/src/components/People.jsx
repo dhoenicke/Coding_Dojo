@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from 'react'
+import { Navigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 
-function People (props) {
+function People() {
 
+    const { id } = useParams('')
     const [person, setPerson] = useState('');
 
     useEffect(() => {
-        axios.get(`https://swapi.dev/api/people/${props.id}`)
-            .then(response => console.log(response.data.results))
-            .then(response => setPerson(response.data.results))
-            .catch(err => console.log(err));
-    }, [props.id]);
+        axios.get(`https://swapi.dev/api/people/${id}`)
+            .catch(err => Navigate(err))
+            .then(response => {
+            setPerson(response.data
+            )
+        })
+        console.log(person)
+    }, [id]);
 
     return (
         <div>

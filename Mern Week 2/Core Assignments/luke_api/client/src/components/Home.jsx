@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 function Home () {
 
     const [resource, setResource] = useState('people');
-    const [selectedId, setSelectedId] = useState();
+    const [selectedId, setSelectedId] = useState([]);
     const navigate = useNavigate();
 
     const handleSubmit = (e) => {
