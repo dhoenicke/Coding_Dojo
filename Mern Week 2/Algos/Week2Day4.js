@@ -9,7 +9,7 @@ const students = [
     {
         firstName: "Alex",
         lastName: "Miller",
-        habits: ["doesn't wash dishes","falls asleep in lecture","shows up early"],
+        habits: ["doesn't wash dishes", "falls asleep in lecture", "shows up early"],
     },
     {
         firstName: "Martha",
@@ -62,4 +62,4 @@ const expected3 = [];
 //     }
 
 
-const santasNaughtyListFunctional = (persons, badHabit) => persons.filter(p => p.habits.includes(badHabit)).map(p => p.firstName + ' ' + p.lastName) 
+const santasNaughtyListFunctional = (persons, badHabit) => persons.filter(p => p.habits.includes(badHabit)).map(p => p.firstName + ' ' + p.lastName)
