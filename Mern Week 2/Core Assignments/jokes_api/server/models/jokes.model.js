@@ -9,7 +9,7 @@ const JokeSchema = new mongoose.Schema({
     writer: {
         type: String,
         required: [true, 'Please add a writer'],
-        minLength: [3, 'Title needs to be more than 3 characters'],
+        minLength: [3, 'Writer needs to be more than 3 characters'],
     },
     rating: {
         type: Number,
