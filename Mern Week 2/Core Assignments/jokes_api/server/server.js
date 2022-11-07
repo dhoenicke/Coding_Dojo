@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
-const jokeRoutes = require('./server/routes/joke.routes');
+const jokeRoutes = require('./routes/joke.routes');
 jokeRoutes(app);
 
 require('./config/mongoose.config');

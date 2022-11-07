@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-const database = 'jokesNov22';
+const url = `mongodb://127.0.0.1:27017/jokesNov22`;
 
-mongoose.connect(`mongodb://localhost/${database}`, {
+mongoose.connect(url , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-    .then(() => console.log(`Established a Database Commlink Sync with ${database}`))
+    .then(() => console.log(`Established a Database Commlink Sync with jokes`))
     .catch(err => console.log('Something went wrong when connecting to the database', err));
