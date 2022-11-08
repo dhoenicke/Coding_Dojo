@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const productForm = (props) => {
+const ProductForm = (props) => {
 
     const { initialTitle, initialPrice, initialDescription, onSubmitProp } = props;
 
@@ -57,4 +57,4 @@ const productForm = (props) => {
     );
 }
 
-export default productForm;
+export default ProductForm;
