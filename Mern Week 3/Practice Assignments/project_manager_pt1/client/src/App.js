@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-import { Router, Redirect } from "react-router";
+import { Router, Routes } from "react-router-dom";
 import Main from './views/Main';
 import ViewProduct from './views/ViewProduct'
 import UpdateProduct from './views/UpdateProduct';
@@ -12,7 +12,7 @@ function App() {
         <Main path="/products"/>
         <ViewProduct path="/products/:id"/>
         <UpdateProduct path="/products/:id/edit"/>
-        <Redirect from="/" to="/products" noThrow="true"/>
+        <Routes from="/" to="/products" noThrow="true"/>
       </Router>
     </div>
   );

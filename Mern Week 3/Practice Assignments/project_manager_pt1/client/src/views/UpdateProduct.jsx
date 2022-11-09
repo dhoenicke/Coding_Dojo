@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { navigate } from "@reach/router";
+import { Navigate } from "react-router-dom";
 import ProductForm from "../components/ProductForm";
 
 const UpdateProduct = (props) => {
@@ -21,7 +21,7 @@ const UpdateProduct = (props) => {
         axios
             .put(`http://localhost:8000/products/${id}/edit`, product)
             .then((res) => console.log(res))
-            .then(() => navigate(`/products/`));
+            .then(() => Navigate(`/products/`));
     };
 
     return (
