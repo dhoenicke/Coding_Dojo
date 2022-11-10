@@ -1,19 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-import { Router, Routes } from "react-router-dom";
-import Main from './views/Main';
-import ViewProduct from './views/ViewProduct'
-import UpdateProduct from './views/UpdateProduct';
+import { Routes, Route } from "react-router-dom";
+import AllProducts from './components/AllProducts';
+import DisplayedProduct from "./components/DisplayedProduct";
+import AddProduct from './components/AddProduct'
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Main path="/products"/>
-        <ViewProduct path="/products/:id"/>
-        <UpdateProduct path="/products/:id/edit"/>
-        <Routes from="/" to="/products" noThrow="true"/>
-      </Router>
+      <Routes>
+        <Route path="/" element={<AllProducts/>} />
+        <Route path="/product/:id" element={<DisplayedProduct/>} />
+        <Route path="/product/addproduct" element={<AddProduct/>} />
+      </Routes>
     </div>
   );
 }
