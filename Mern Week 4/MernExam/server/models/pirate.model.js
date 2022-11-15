@@ -22,7 +22,7 @@ const PirateSchema = new mongoose.Schema(
         crew_position: {
             type: String,
             required: [true, "Position is required"],
-            unique: [true, "Only one of each position"]
+            // unique: [true, "Only one of each position"]
         },
         pegLeg: {
             type: Boolean,

@@ -75,7 +75,7 @@ const PirateForm = (props) => {
                     <label htmlFor="crew_position">Crew Position: </label>
                     <select
                         className="form-control"
-                        required
+                        // required
                         onChange={(e) => setCrew_position(e.target.value)}
                         value={crew_position}
                     >

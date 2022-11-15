@@ -9,8 +9,7 @@ const ViewPirate = () => {
     const [pirate, setPirate] = useState({});
 
     useEffect(() => {
-        axios
-            .get("http://localhost:8000/api/pirates/" + id)
+        axios.get("http://localhost:8000/api/pirates/" + id)
             .then((res) => setPirate(res.data))
             .catch((err) => navigate("/error", err));
     }, [id,navigate]);
