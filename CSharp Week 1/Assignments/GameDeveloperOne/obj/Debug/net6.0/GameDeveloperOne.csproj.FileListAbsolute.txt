@@ -1,0 +1,15 @@
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.csproj.AssemblyReference.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.AssemblyInfoInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.AssemblyInfo.cs
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.csproj.CoreCompileInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\bin\Debug\net6.0\GameDeveloperOne.exe
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\bin\Debug\net6.0\GameDeveloperOne.deps.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\bin\Debug\net6.0\GameDeveloperOne.runtimeconfig.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\bin\Debug\net6.0\GameDeveloperOne.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\bin\Debug\net6.0\GameDeveloperOne.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\refint\GameDeveloperOne.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\GameDeveloperOne.genruntimeconfig.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperOne\obj\Debug\net6.0\ref\GameDeveloperOne.dll
