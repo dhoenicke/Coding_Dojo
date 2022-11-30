@@ -1,14 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Enemy orc = new Enemy("Orc");
+Enemy bowser = new Enemy("Bowser");
 
-Attack slash = new Attack("Slash", 10);
-Attack cut = new Attack("Cut", 5);
-Attack fireball = new Attack("Fireball", 10);
+Attack smash = new Attack("Smash", 50);
+Attack punch = new Attack("Punch", 25);
+Attack fireball = new Attack("Fireball", 100);
 
-orc.addAttack(slash).addAttack(cut).addAttack(fireball);
-foreach (Attack item in orc.Attacks)
+bowser.addAttack(smash).addAttack(punch).addAttack(fireball);
+foreach (Attack item in bowser.Attacks)
 {
     Console.WriteLine($"Attack: {item._Name} DamageDelt: {item._DamageDelt}");
 }
-orc.RandomAttack();
+bowser.RandomAttack();

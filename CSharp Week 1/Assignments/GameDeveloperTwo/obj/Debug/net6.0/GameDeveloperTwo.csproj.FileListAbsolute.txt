@@ -1,0 +1,15 @@
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\bin\Debug\net6.0\GameDeveloperTwo.exe
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\bin\Debug\net6.0\GameDeveloperTwo.deps.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\bin\Debug\net6.0\GameDeveloperTwo.runtimeconfig.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\bin\Debug\net6.0\GameDeveloperTwo.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\bin\Debug\net6.0\GameDeveloperTwo.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.csproj.AssemblyReference.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.AssemblyInfoInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.AssemblyInfo.cs
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.csproj.CoreCompileInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\refint\GameDeveloperTwo.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\GameDeveloperTwo.genruntimeconfig.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\GameDeveloperTwo\obj\Debug\net6.0\ref\GameDeveloperTwo.dll

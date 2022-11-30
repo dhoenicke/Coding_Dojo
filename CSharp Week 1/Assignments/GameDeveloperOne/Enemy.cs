@@ -12,7 +12,7 @@ class Enemy
     }
 
     public List<Attack> Attacks;
-    List<Attack> attackList = new List<Attack>() { new Attack("Spear Throw", 25), new Attack("Knife Cut", 50), new Attack("Heavy Hammer", 100) };
+    List<Attack> attackList = new List<Attack>() { new Attack("Smash", 50), new Attack("Punch", 25), new Attack("Fireball", 100) };
 
     public Enemy addAttack(Attack att)
     {
