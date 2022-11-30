@@ -1,0 +1,15 @@
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\bin\Debug\net6.0\FuelUp.exe
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\bin\Debug\net6.0\FuelUp.deps.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\bin\Debug\net6.0\FuelUp.runtimeconfig.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\bin\Debug\net6.0\FuelUp.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\bin\Debug\net6.0\FuelUp.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.csproj.AssemblyReference.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfoInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfo.cs
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.csproj.CoreCompileInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\refint\FuelUp.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\FuelUp.genruntimeconfig.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\FuelUp\obj\Debug\net6.0\ref\FuelUp.dll
