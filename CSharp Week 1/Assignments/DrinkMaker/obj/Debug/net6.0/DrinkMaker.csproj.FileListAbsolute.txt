@@ -1,0 +1,15 @@
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\bin\Debug\net6.0\DrinkMaker.exe
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\bin\Debug\net6.0\DrinkMaker.deps.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\bin\Debug\net6.0\DrinkMaker.runtimeconfig.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\bin\Debug\net6.0\DrinkMaker.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\bin\Debug\net6.0\DrinkMaker.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.csproj.AssemblyReference.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.AssemblyInfoInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.AssemblyInfo.cs
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.csproj.CoreCompileInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\refint\DrinkMaker.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\DrinkMaker.genruntimeconfig.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DrinkMaker\obj\Debug\net6.0\ref\DrinkMaker.dll
