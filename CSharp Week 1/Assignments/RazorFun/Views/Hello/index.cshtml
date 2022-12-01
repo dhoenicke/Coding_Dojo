@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Hello!</title>
+</head>
+
+<body>
+    <h1>Here are some delicious foods!</h1>
+    @{
+        List<string> FoodList = new List<string>();
+        FoodList.Add("Apple Pie");
+        FoodList.Add("Pizza");
+        FoodList.Add("Cinnamon Rolls");
+        FoodList.Add("Lasagna");
+        FoodList.Add("Donuts");
+        FoodList.Add("Chocolate Cake");
+        FoodList.Add("Burritos");
+
+        foreach (string f in FoodList)
+        {
+            if (f[0] == 'C')
+            {
+                <p style="color:red;">@f</p>
+            }
+            else
+            {
+                <p>@f</p>
+            }
+        }
+    }
+</body>
+</body>
+
+</html>

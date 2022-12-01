@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "aJ0dbM5pOsTb0w4Ks0O6KxbJYKsc7tB6QKBE31URjQ4=",
+  "Source": "PortfolioTwo",
+  "BasePath": "_content/PortfolioTwo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioTwo\\wwwroot",
+      "Source": "PortfolioTwo",
+      "ContentRoot": "C:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp Week 1\\Assignments\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp Week 1\\Assignments\\PortfolioTwo\\wwwroot\\css\\Style.css",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp Week 1\\Assignments\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
+    },
+    {
+      "Identity": "C:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp Week 1\\Assignments\\PortfolioTwo\\wwwroot\\images\\profile.png",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp Week 1\\Assignments\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "images/profile.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile.png"
+    }
+  ]
+}
