@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DojoSurveyWValidations.Models;
-using DojoSurveyWModel.Models;
 
 namespace DojoSurveyWValidations.Controllers;
 
