@@ -8,17 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectName
 build_property.RootNamespace = ProjectName
-build_property.ProjectDir = C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurvey\
+build_property.ProjectDir = c:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurvey\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurvey
+build_property.MSBuildProjectDirectory = c:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurvey
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/djhoe/OneDrive/Desktop/Coding_Dojo/CSharp Week 1/Assignments/DojoSurvey/Views/Survey/Index.cshtml]
+[c:/Users/djhoe/OneDrive/Desktop/Coding_Dojo/CSharp Week 1/Assignments/DojoSurvey/Views/Survey/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VydmV5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/djhoe/OneDrive/Desktop/Coding_Dojo/CSharp Week 1/Assignments/DojoSurvey/Views/Survey/Results.cshtml]
+[c:/Users/djhoe/OneDrive/Desktop/Coding_Dojo/CSharp Week 1/Assignments/DojoSurvey/Views/Survey/Results.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VydmV5XFJlc3VsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

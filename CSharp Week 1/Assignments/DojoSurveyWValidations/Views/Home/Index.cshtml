@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Survey
+<div class="d-flex justify-content-center m-3">
+    <form asp-action="results" asp-controller="Home" method="post">
+        <div class="d-flex mt-4">
+            <span asp-validation-for="name"></span><br>
+            <label asp-for="name">Your Name:</label>
+            <input asp-for="name" class="form-control" />
+        </div>
+        <div class="d-flex mt-3">
+            <span asp-validation-for="location"></span><br>
+            <label asp-for="location">Dojo Location:</label>
+            <select asp-for="location" class="form-control">
+                <option value="">Select location</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Sacramento">Sacramento</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="Fairfield">Fairfield</option>
+            </select>
+        </div>
+        <div class="d-flex mt-3">
+            <span asp-validation-for="language"></span><br>
+            <label asp-for="language">Favorite Language:</label>
+            <select asp-for="language" class="form-control">
+                <option value="">Select language</option>
+                <option value="CSharp">CSharp</option>
+                <option value="MERN">MERN</option>
+                <option value="Python">Python</option>
+                <option value="Javascript">Javascript</option>
+            </select>
+        </div>
+        <div class="d-flex mt-3">
+            <span asp-validation-for="comment"></span><br>
+            <label asp-for="comment">Comment (optional):</label>
+            <textarea asp-for="comment"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-info mt-3" />
+    </form>
+</div>

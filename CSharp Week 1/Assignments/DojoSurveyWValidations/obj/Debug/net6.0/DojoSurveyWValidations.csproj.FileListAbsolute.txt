@@ -1,0 +1,8 @@
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.csproj.AssemblyReference.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.AssemblyInfoInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.AssemblyInfo.cs
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.csproj.CoreCompileInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.RazorAssemblyInfo.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 1\Assignments\DojoSurveyWValidations\obj\Debug\net6.0\DojoSurveyWValidations.RazorAssemblyInfo.cs
