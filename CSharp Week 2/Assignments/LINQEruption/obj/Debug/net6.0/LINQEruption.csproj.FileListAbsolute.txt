@@ -3,3 +3,13 @@ C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQErupti
 C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.AssemblyInfoInputs.cache
 C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.AssemblyInfo.cs
 C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.csproj.CoreCompileInputs.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.exe
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.deps.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.runtimeconfig.json
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\refint\LINQEruption.dll
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.pdb
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.genruntimeconfig.cache
+C:\Users\djhoe\OneDrive\Desktop\Coding_Dojo\CSharp Week 2\Assignments\LINQEruption\obj\Debug\net6.0\ref\LINQEruption.dll
