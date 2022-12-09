@@ -28,7 +28,7 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Hash our password
+            // ?Hash our password
             PasswordHasher<User> Hasher = new PasswordHasher<User>();
             newUser.Password = Hasher.HashPassword(newUser, newUser.Password);
             _context.Add(newUser);

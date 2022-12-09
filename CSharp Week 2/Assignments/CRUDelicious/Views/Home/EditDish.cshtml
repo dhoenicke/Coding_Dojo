@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "New Dish";
+}
+@model Dish
+
+<div class="text-center">
+    <h1 class="display-4">Edit the Dish</h1>
+    <a href="/">Home</a> |
+    <a href="/dishes/new">Add a Dish</a>
+</div>
+<form asp-action="Update" asp-controller="Home" asp-route-DishId="@Model.DishId" method="post"
+    class="d-flex justify-content-evenly">
+    <div>
+        <label asp-for="ChefName">Chef's Name:</label>
+        <span asp-validation-for="ChefName" class="text-danger"></span>
+        <input asp-for="ChefName" class="form-control">
+        <label asp-for="DishName">Name of Dish:</label>
+        <span asp-validation-for="DishName" class="text-danger"></span>
+        <input asp-for="DishName" class="form-control">
+        <label asp-for="Calories"># of Calories:</label>
+        <span asp-validation-for="Calories" class="text-danger"></span>
+        <input asp-for="Calories" class="form-control">
+    </div>
+    <div class="d-flex flex-column">
+        <label asp-for="Tastiness">Tastiness:</label>
+        <select asp-for="Tastiness" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Description:</label>
+        <span asp-validation-for="Description"></span>
+        <textarea asp-for="Description" cols="30" rows="10" class="form-control"></textarea>
+        <button type="submit" value="Edit Dish" class="btn btn-info">Submit</button>
+    </div>
+</form>

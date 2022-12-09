@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "New Dish";
+}
+@model Dish
+
+<div class="text-center">
+    <h1 class="display-4">Add a new Dish</h1>
+    <a href="/">Home</a> |
+    <a href="/dishes/new">Add a Dish</a>
+</div>
+<form asp-action="Create" asp-action="Home" method="post" class="d-flex justify-content-evenly">
+    <div class="d-flex flex-column">
+        <span asp-validation-for="ChefName" class="text-danger"></span>
+        <label asp-for="ChefName">Chef's Name:</label>
+        <input asp-for="ChefName" class="form-control">
+        <span asp-validation-for="DishName" class="text-danger"></span>
+        <label asp-for="DishName">Name of Dish:</label>
+        <input asp-for="DishName" class="form-control">
+        <span asp-validation-for="Calories" class="text-danger"></span>
+        <label asp-for="Calories"># of Calories:</label>
+        <input asp-for="Calories" class="form-control">
+    </div>
+    <div class="d-flex flex-column">
+        <span asp-validation-for="Tastiness" class="text-danger"></span>
+        <label asp-for="Tastiness">Tastiness:</label>
+        <select asp-for="Tastiness" id="">
+            <option disabled selected hidden>Pick One</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="d-flex flex-column">
+        <span asp-validation-for="Description" class="text-danger"></span>
+        <label for="">Description:</label>
+        <textarea asp-for="Description" cols="30" rows="10" class="form-control"></textarea>
+        <button type="submit" value="Add Dish" class="btn btn-info">Submit</button>
+    </div>
+</form>

@@ -7,9 +7,11 @@ public class User
     [Key]
     public int UserId { get; set; }
     [Required]
+    [Display(Name = "First Name")]
     [MinLength(2, ErrorMessage = "First name must be at least 2 characters")]
     public string FirstName { get; set; }
     [Required]
+    [Display(Name = "Last Name")]
     [MinLength(2, ErrorMessage = "Last name must be at least 2 characters")]
     public string LastName { get; set; }
     [Required]
