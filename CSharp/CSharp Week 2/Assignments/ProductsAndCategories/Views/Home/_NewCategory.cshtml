@@ -1,0 +1,13 @@
+@model Category
+
+<div class="d-flex flex-column align-items-center">
+    <h3 class="mb-5" style="border-bottom: 1px solid;">New Category</h3>
+    <form asp-action="CreateCategory" asp-controller="Home" method="post">
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+        <div class="form-group d-flex justify-content-between mb-3 gap-2">
+            <label asp-for="CategoryName" class="text-left">Name</label>
+            <input asp-for="CategoryName" class="form-control" style="width: 15em;">
+        </div>
+        <input type="submit" value="Create" class="btn btn-success ">
+    </form>
+</div>

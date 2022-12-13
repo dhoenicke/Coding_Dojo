@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model MyViewModel
+
+<main class="d-flex flex-column justify-content-center align-items-center mt-5">
+    <nav>
+        <a asp-action="Index" class="h5">Products</a> |
+        <a asp-action="Categories" class="h5">Categories</a>
+    </nav>
+    <div class="d-flex m-5">
+        <div style="min-width: 375px;">
+            @await Html.PartialAsync("_NewProduct", Model.Product)
+        </div>
+        <div style="height: 60vh; width: 2px; background: black;"></div>
+        <div class="d-flex flex-column align-items-center" style="min-width: 375px;">
+            <h3 style="border-bottom: 1px solid; width: fit-content;">All Products</h3>
+            <ul class="text-center p-0">
+                @foreach (Product p in Model.AllProducts)
+                {
+                    <li class="list-unstyled">
+                        <a asp-action="ShowProduct" asp-route-ProductId="@p.ProductId">@p.ProductName</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</main>

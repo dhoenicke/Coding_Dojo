@@ -1,0 +1,24 @@
+@model MyViewModel
+
+<nav class="text-center m-5">
+    <div class="d-flex justify-content-center gap-1">
+        <a class="h5" href="/">Products</a> |
+        <a class="h5" href="/categories">Categories</a>
+    </div>
+</nav>
+
+<h2 class="text-center mb-5">@Model.Category.CategoryName</h2>
+
+<div class="d-flex justify-content-evenly">
+    <div>
+        <h3 class="mb-3">Products</h3>
+        @foreach (Association association in Model.Category.ProductsInCategory)
+        {
+            <p class="text-center">@association.Product.ProductName</p>
+        }
+    </div>
+
+    <div>
+        @await Html.PartialAsync("_AddProd", Model.association)
+    </div>
+</div>
