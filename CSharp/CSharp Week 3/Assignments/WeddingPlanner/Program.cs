@@ -1,16 +1,19 @@
 using Microsoft.EntityFrameworkCore;
 using WeddingPlanner.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-// Established connection to our MySQL database
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
+
 builder.Services.AddDbContext<MyContext>(options =>
 {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -22,6 +25,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 

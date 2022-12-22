@@ -18,7 +18,7 @@ public class HomeController : Controller
         _context = context;
     }
 
-    // Login & Registration =>
+    // Login & Registration
 
     [HttpGet("")]
     public IActionResult Index()

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 1\\Assignments\\DojoSurvey\\ProjectName.csproj",
+  "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\ProductsAndCategories.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,16 +16295,76 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "ProjectName",
+  "RootNamespace": "ProductsAndCategories",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 1\\Assignments\\DojoSurvey\\Views\\Survey\\Results.cshtml",
-      "TargetPath": "Views\\Survey\\Results.cshtml",
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\_AddProd.cshtml",
+      "TargetPath": "Views\\Home\\_AddProd.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 1\\Assignments\\DojoSurvey\\Views\\Survey\\Index.cshtml",
-      "TargetPath": "Views\\Survey\\Index.cshtml",
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\_NewCategory.cshtml",
+      "TargetPath": "Views\\Home\\_NewCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\ShowCategory.cshtml",
+      "TargetPath": "Views\\Home\\ShowCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\ShowProduct.cshtml",
+      "TargetPath": "Views\\Home\\ShowProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\_NewProduct.cshtml",
+      "TargetPath": "Views\\Home\\_NewProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\_AddCat.cshtml",
+      "TargetPath": "Views\\Home\\_AddCat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Home\\AllCategories.cshtml",
+      "TargetPath": "Views\\Home\\AllCategories.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\djhoe\\OneDrive\\Desktop\\Coding_Dojo\\CSharp\\CSharp Week 2\\Assignments\\ProductsAndCategories\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
